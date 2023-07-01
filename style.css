@@ -1,3 +1,138 @@
-h1{
-    color:red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    background: #1f242d;
+    color: #fff;
+
+}
+.nav-color{
+    background-color:#27374D;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    padding-top:30px;
+    height: 10% ;
+    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none; 
+    font-weight: 600;
+    cursor: default; 
+    padding:0;
+    margin: 0 100px 30px 0px ;   
+
+}
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-bottom: 0;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #98EECC;
+    background: transparent;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight:700;
+}
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+.home-content h3 span{
+    color:#98EECC;
+}
+
+.home-content h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin:-3px 0;
+}
+
+.home-content p{
+    font-size: 16px;
+}
+
+.home-img{
+    max-width: 450px;
+    padding-left:10%;
+    padding-bottom: 20px;
+    
+}
+
+.social-media h5{
+    margin-top:40px;
+    margin-bottom:5px;
+    font-weight: bold;
+
+}
+   
+.social-media a {
+    display: inline-flex;
+    width: 40px;
+    height:40px;
+    background:transparent;
+    border: 2px solid #98EECC;
+    border-radius: 50%;
+    font-size:20px;
+    color:#98EECC;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 15px 30px 0;
+    transition: .5s ease;
+    
+}
+
+
+.social-media a:hover{
+    color:black;
+    background: #98EECC;
+    box-shadow:0 0 20px #98EECC;
+}
+.btn {
+display: inline-block;
+padding: 12px 28px;
+background:#98EECC;
+box-shadow: 0 0 10px #98EECC;
+border-radius: 40px;
+text-decoration: none;
+
 }
